@@ -35,6 +35,10 @@ if(character === "po" || character === "the dragon warrior" || character === "dr
     charImgEl.src = "images/tigress.png";
     charNameEl.innerHTML = "Tigress";
     charQuoteEl.innerHTML = "That was pretty hardcore!";
+} else if (character === "monkey") {
+    charImgEl.src = "images/monkey.png";
+    charNameEl.innerHTML = "Monkey"
+    charQuoteEl.innerHTML = "We should hang out!"
 } else {
     charImgEl.src = "images/question-mark.png";
     charNameEl.innerHTML = "-------";
